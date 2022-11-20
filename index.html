@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <script src="https://kit.fontawesome.com/02d8f72e77.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Playfair+Display:ital@1&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="simple-lightbox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+<nav class="navbar">
+    <div class="container">
+        <h1 class="logo">Phono</h1>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- SHOWCASE  -->
+<section class="section-a">
+    <div class="container">
+        <div>
+        <h1>The headphones of the future</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi ut quasi eaque voluptatibus ipsa nisi nesciunt tenetur! Laudantium, at.
+        </p>
+        <a href="#" class="btn">Read More</a>
+        </div>
+        <img src="https://i.ibb.co/37Y74kv/showcase.jpg" alt="headphones">
+    </div>
+</section>
+
+<!-- OVERLAY TEXT  -->
+<section class="section-b">
+    <div class="overlay">
+        <div class="section-b-inner">
+            <h3>Loud & Clear</h3>
+            <h2>People Aren't Hearing All The Music</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolorem doloribus 
+                porro odio non numquam excepturi cum ratione? Similique, nulla.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY  -->
+
+<section class="section-c">
+    <div class="gallery">
+        <a href="#" class="big"
+        ><img src="https://i.ibb.co/CHLBZnp/gal2323.jpg" alt=""
+      /></a>
+      <a href="#" class="big"
+        ><img src="https://i.ibb.co/4pBbhfY/gal39834.jpg" alt=""
+      /></a>
+      <a href="#" class="big"
+        ><img src="https://i.ibb.co/xSnHP7g/gal43884.jpg" alt=""
+      /></a>
+      <a href="#" class="big"
+        ><img src="https://i.ibb.co/QN6Bnrb/gal4958.jpg" alt=""
+      /></a>
+      <a href=#" class="big">
+        <img src="https://i.ibb.co/dGZvj75/gal4545.jpg" alt=""
+      /></a>
+      <a href="#" class="big"
+        ><img src="https://i.ibb.co/S6FVFNt/gal74744.jpg" alt=""
+      /></a>
+    </div>
+</section>
+
+<!-- FOOTER  -->
+<footer class="section-footer">
+    <div class="container">
+        <div>
+            <h2>Lorem ipsum dolor sit.</h2>
+            <a href="https://twitter.com">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="https://twitter.com">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://twitter.com">
+                <i class="fab fa-youtube fa-2x"></i>
+            </a>
+        </div>
+        <div>
+            <h3>Company Info</h3>
+            <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Blog Posts</h3>
+            <ul>
+            <li><a href="#">Lorem, ipsum dolor.</a></li>
+            <li><a href="#">Lorem, ipsum dolor.</a></li>
+            <li><a href="#">Lorem, ipsum dolor.</a></li>
+            <li><a href="#">Lorem, ipsum dolor.</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Subscribe</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <form name="email-form" method="POST" data-netlify="true">
+                <div class="email-form">
+                    <span class="form-control-wrap">
+                        <input type="email" name="email" id="email" size="40"
+                        class="form-control" placeholder="Email">
+                    </span>
+                    <button type="submit" class="form-control submit"><i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</footer>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<<script src="/cdnjs/jquery.min.js"></script>
+<script src="simple-lightbox.min.js"></script>
+<script>
+       $(function() {
+        const $gallery = $('.gallery a').simpleLightbox();
+      });
+    </script>
+</body>
+</html>
